@@ -1,0 +1,16 @@
+EIA24
+batch-size', type=int, default=168, help='batch size')
+parser.add_argument('--his-length', type=int, default=24, help='the length of history time series of input')
+parser.add_argument('--pred-length', type=int, default=24,, help='the length of target time series for prediction')
+
+
+PEMS04
+batch-size', type=int, default=16, help='batch size')
+parser.add_argument('--his-length', type=int, default=12, help='the length of history time series of input')
+parser.add_argument('--pred-length', type=int, default=12,, help='the length of target time series for prediction')
+
+
+newyork
+parser.add_argument('--batch-size', type=int, default=288, help='batch size')
+parser.add_argument('--his-length', type=int, default=12, help='the length of history time series of input')
+parser.add_argument('--pred-length', type=int, default=12, help='the length of target time series for prediction')
